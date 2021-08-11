@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  width: 100%;
+  background: url("/images/pattern-background-desktop.svg");
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  color: #1f2f56;
+}
+
+@media (max-width: 1440px) {
+  body {
+    background: url("/images/pattern-background-mobile.svg");
+    background-color: #e0e8ff;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+}
+
+.btn {
+  padding: 1em 0;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: .7em;
+  text-decoration: none;
+}
+
+.btn.btn-primary {
+  background: #3829e0;
+  color: white;
+  -webkit-box-shadow: 0px 10px 24px 0px rgba(56, 41, 224, 0.3);
+          box-shadow: 0px 10px 24px 0px rgba(56, 41, 224, 0.3);
+}
+
+.btn.btn-primary:hover {
+  -webkit-transition: 100ms;
+  transition: 100ms;
+  -webkit-box-shadow: 0px 4px 24px 0px rgba(56, 41, 224, 0.3);
+          box-shadow: 0px 4px 24px 0px rgba(56, 41, 224, 0.3);
+}
+
+.btn.btn-secondary {
+  color: #7280a7;
+  margin-top: 1em;
+  padding-bottom: 0;
+}
+
+.btn.btn-secondary:hover {
+  opacity: .8;
+}
+
+.card__wrapper {
+  width: 450px;
+  margin: 2em auto;
+}
+
+.card__wrapper img {
+  display: block;
+  border-radius: 1em 1em 0 0;
+}
+
+.card__wrapper__info__container {
+  background: white;
+  text-align: center;
+  padding: 2.8em;
+  border-radius: 0 0 1em 1em;
+}
+
+.card__wrapper__info__container > h2 {
+  font-weight: 900;
+}
+
+.card__wrapper__info__container > p {
+  margin: 1.2em 0;
+  color: #7280a7;
+}
+
+.card__wrapper__info__container .__plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 1.5em;
+  background: #f5f7ff;
+  border-radius: .7em;
+  position: relative;
+}
+
+.card__wrapper__info__container .__plan__info {
+  margin-left: 1.5em;
+  text-align: start;
+  width: 100%;
+}
+
+.card__wrapper__info__container .__plan__info > p {
+  color: #7280a7;
+}
+
+.card__wrapper__info__container .__plan > a {
+  color: #3829e0;
+  font-weight: 900;
+}
+
+.card__wrapper__info__container .__plan > a:hover {
+  opacity: .8;
+}
+
+.card__wrapper__info__container .__button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.2em;
+}
+/*# sourceMappingURL=style.css.map */
